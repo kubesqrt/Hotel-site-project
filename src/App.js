@@ -1,14 +1,14 @@
-
-import './App.css';
 import React from "react"
-import ReactDOM from "react-dom"
+import Navbar from "./Navbar"
+import Hero from "./Hero"
+import Card from "./card"
 
-const page = (
-
-  <div>
-    <img src="./spidey.png" />
-  </div>
-)
-
-ReactDOM.render(page, document.getElementById("root"))
-
+export default function App() {
+    return (  
+        <div>
+            <Navbar />
+            <Hero />
+            <Card />
+        </div>
+    )
+}
