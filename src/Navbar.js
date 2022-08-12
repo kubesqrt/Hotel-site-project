@@ -4,7 +4,7 @@ export default function Navbar() {
 
     return(
     <nav>
-        <img src={require("./airbnb 1.png")} />
+        <img src={require("./images/airbnb 1.png")} />
     </nav>
     )
 }
